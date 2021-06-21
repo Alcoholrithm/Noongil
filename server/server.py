@@ -25,14 +25,12 @@ def get_caption(img):
 def main():
     file = request.get_data()
     img = cv2.imdecode(np.frombuffer(file, np.uint8), cv2.IMREAD_UNCHANGED)
-    #img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img = np.array([img])
     caption = get_caption(img)
-    #caption = streamer.predict(img)
-    print(caption)
+    #print(caption)
     eng = 'There is ' + caption
     kor =  papago.translate(eng)
-    print(kor)
+    #print(kor)
     return kor
 
 
