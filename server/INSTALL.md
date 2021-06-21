@@ -1,7 +1,7 @@
 ## Install Requirements
+install pytorch at the following link: [Pytorch](https://pytorch.org/get-started/locally/)
 ```
 pip install flask opencv-python numpy
-nstall pytorch at the following link: [Pytorch](https://pytorch.org/get-started/locally/)
 ```
 
 ## If you use bottom-up-attention as encoder
