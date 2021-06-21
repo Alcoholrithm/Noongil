@@ -1,5 +1,5 @@
 ## Install Requirements
-install pytorch at the following link: [Pytorch](https://pytorch.org/get-started/locally/)
+Install pytorch at the following link: [Pytorch](https://pytorch.org/get-started/locally/)
 ```
 pip install flask opencv-python numpy
 ```
