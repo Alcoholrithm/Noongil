@@ -1,4 +1,4 @@
-## If you use bottom-up-attention as decoder
+## If you use bottom-up-attention as encoder
 ```
 git clone https://github.com/Alcoholrithm/py-bottom-up-attention.git
 cd py-bottom-up-attention
