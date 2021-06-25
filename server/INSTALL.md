@@ -1,36 +1,21 @@
-## Install Requirements
-Install pytorch at the following link: [Pytorch](https://pytorch.org/get-started/locally/)
+# Install Procedure
+
+## Install Required Library For Server
 ```
 pip install flask opencv-python numpy
+
+cd ./Oscar_Scripts/Oscar
+Follow INSTALL.MD
 ```
 
-## If you use bottom-up-attention as encoder
+## If you use bottom-up-attention as Encoder
 ```
-git clone https://github.com/Alcoholrithm/py-bottom-up-attention.git
-cd py-bottom-up-attention
+cd ./Oscar_scripts/py-bottom-up-attention
 python setup.py build develop
 ```
 
-## Install Oscar
+## If you use VinVL as Decoder
 ```
-# install apex
-git clone https://github.com/NVIDIA/apex.git
-cd apex
-python setup.py install --cuda_ext --cpp_ext
-
-# install oscar
-cd ..
-git clone --recursive git@github.com:microsoft/Oscar.git
-cd Oscar/coco_caption
-./get_stanford_models.sh
-cd ..
-python setup.py build develop
-
-# install requirements
-pip install -r requirements.txt
-```
-
-## Download Oscar Scripts
-```
-git clone https://github.com/Alcoholrithm/Oscar.git
+cd ./Oscar_sripts/scene_Graph_benchmark
+Follow INSTALL.MD
 ```
